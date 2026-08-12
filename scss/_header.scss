@@ -20,7 +20,6 @@ $primary: #100070;
     background: #200490 ;
     color: white;
     margin-left: auto;
-    margin-bottom: 40px;
 }
 .cards{
     width:600px ;
@@ -33,6 +32,7 @@ $primary: #100070;
        
     }
     &-footer{
+        margin-top: 30px;
     .link-more{
       @include link(4px);
     } 
