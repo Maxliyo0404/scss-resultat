@@ -2,8 +2,8 @@ $primary: #100070;
 @mixin link(){
     display: inline-block;
     padding: 12px 18px;
-    border: $primary;
-    color: white;
+    border: #100070;
+    color: $primary;
     border-radius: 12px;
 }
 @mixin tit(){
