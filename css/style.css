@@ -27,4 +27,17 @@
 .cards .card-footer .link-more:hover {
   background: #100070;
   color: white;
+}
+.cards .card-footer .link-send {
+  display: inline-block;
+  padding: 12px 29px;
+  border: 2px solid #100070;
+  color: #100070;
+  border-radius: 4px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.cards .card-footer .link-send:hover {
+  background: #100070;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
