@@ -5,6 +5,8 @@ $primary: #100070;
     border: 2px solid $primary;
     color: $primary;
     border-radius: 4px;
+    font-size: 20px;
+    text-decoration: none;
 }
 @mixin tit(){
     width: 400px     ;
