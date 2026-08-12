@@ -9,6 +9,7 @@ $primary: #100070;
     text-decoration: none;
     &:hover{
         background: $primary;
+        color: white;
     }
 }
 @mixin tit(){
