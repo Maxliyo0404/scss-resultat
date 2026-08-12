@@ -14,11 +14,12 @@
   background: #200490;
   color: white;
   margin-left: auto;
+  margin-bottom: 30px;
 }
 .cards .card-footer .link-more {
   display: inline-block;
   padding: 10px 20px;
-  border: 2px solid #100070;
+  border: 1px solid #100070;
   color: #100070;
   border-radius: 4px;
   font-size: 20px;
@@ -31,13 +32,13 @@
 .cards .card-footer .link-send {
   display: inline-block;
   padding: 10px 20px;
-  border: 2px solid #100070;
+  border: 1px solid #100070;
   color: #100070;
   border-radius: 40px;
   font-size: 20px;
   text-decoration: none;
 }
 .cards .card-footer .link-send:hover {
-  background: #100070;
+  background: red;
   color: white;
 }/*# sourceMappingURL=style.css.map */

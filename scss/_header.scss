@@ -2,7 +2,7 @@ $primary: #100070;
 @mixin link($border, $background){
     display: inline-block;
     padding: 10px 20px;
-    border: 2px solid $primary;
+    border: 1px solid $primary;
     color: $primary;
     border-radius: $border;
     font-size: 20px;
@@ -20,7 +20,7 @@ $primary: #100070;
     background: #200490 ;
     color: white;
     margin-left: auto;
-     margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .cards{
     width:600px ;
@@ -34,10 +34,10 @@ $primary: #100070;
     }
     &-footer{
     .link-more{
-      @include link(4px);
+      @include link(4px, $primary);
     } 
     .link-send{
-        @include link(40px);
+        @include link(40px, red );
     }
    }
    }
