@@ -20,6 +20,7 @@ $primary: #100070;
     background: #200490 ;
     color: white;
     margin-left: auto;
+    margin-bottom: 40px;
 }
 .cards{
     width:600px ;
@@ -29,7 +30,7 @@ $primary: #100070;
     padding: 30px;
     &-header{
         @include tit();
-        margin-bottom: 20px
+       
     }
     &-footer{
     .link-more{
