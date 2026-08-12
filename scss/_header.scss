@@ -1,5 +1,5 @@
 $primary: #100070;
-@mixin link($border, $color){
+@mixin link($border, $background){
     display: inline-block;
     padding: 10px 20px;
     border: 2px solid $primary;
@@ -8,7 +8,7 @@ $primary: #100070;
     font-size: 20px;
     text-decoration: none;
     &:hover{
-        background: $primary;
+        background: $background;
         color: white;
     }
 }
