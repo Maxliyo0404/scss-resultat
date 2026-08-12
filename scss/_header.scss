@@ -29,13 +29,14 @@ $primary: #100070;
     padding: 30px;
     &-header{
         @include tit();
+        margin-bottom: 20px
     }
     &-footer{
     .link-more{
       @include link(4px);
     } 
     .link-send{
-        @include link(40px)
+        @include link(40px);
     }
    }
    }
