@@ -25,9 +25,5 @@
         @include tit();
     }
    }
-   &-footer{
-    &-more{
-      @include link();
-    } 
-   }
+  
 }
