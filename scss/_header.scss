@@ -35,7 +35,7 @@ $primary: #100070;
       @include link();
     } 
     .link-send{
-        @include link
+        @include link()
     }
    }
    }
