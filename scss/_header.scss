@@ -1,5 +1,5 @@
 $primary: #100070;
-@mixin link($border $color){
+@mixin link($border, $color){
     display: inline-block;
     padding: 10px 20px;
     border: 2px solid $primary;
